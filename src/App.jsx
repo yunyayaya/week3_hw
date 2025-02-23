@@ -24,8 +24,8 @@ function App() {
   const [isAuth, setIsAuth] = useState(false); // 驗證狀態
   const [products, setProducts] = useState([]); // 產品列表
   const [account, setAccount] = useState({
-     username: "yayaweek2@test.com",
-      password: "yayaweek2"
+     username: "example@test.com",
+      password: "example"
   });
   const [tempProduct, setTempProduct] = useState(defaultModalState); // 用於編輯或創建產品時的暫存資料
 
